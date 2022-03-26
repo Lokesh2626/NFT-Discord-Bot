@@ -1,0 +1,17 @@
+import data from "/Users/Documents/my-nft/mint-nft.js"
+
+{
+  "attributes": [
+    {
+      "trait_type": "Breed",
+      "value": "Maltipoo"
+    },
+    {
+      "trait_type": "Eye color",
+      "value": "Mocha"
+    }
+  ],
+  "description": "image",
+  "image": "imageHash",
+  "name": "image"
+}

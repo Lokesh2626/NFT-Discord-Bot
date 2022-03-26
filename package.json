@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "my-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.9.1"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.2.5",
+    "@babel/register": "^7.17.7",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@pinata/sdk": "^1.1.23",
+    "axios": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25"
+  }
+}
